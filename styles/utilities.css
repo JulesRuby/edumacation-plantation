@@ -1,0 +1,14 @@
+:root {
+	--base-font-size: 12px;
+	--fluid-modifier: 0.9;
+	--heading-modifier: 1.1;
+	--fluid-rem: calc(var(--base-font-size) + var(--fluid-modifier) * 1vw);
+	--h6: calc(var(--fluid-rem) * var(--heading-modifier));
+	--h5: calc(var(--h6) * var(--heading-modifier));
+	--h4: calc(var(--h5) * var(--heading-modifier));
+	--h3: calc(var(--h4) * var(--heading-modifier));
+	--h2: calc(var(--h3) * var(--heading-modifier));
+	--h1: calc(var(--h2) * var(--heading-modifier));
+
+	font-size: var(--fluid-rem);
+}
