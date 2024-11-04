@@ -1,3 +1,25 @@
 @import 'resets.css';
 @import 'utilities.css';
 @import 'theme.css';
+
+html {
+	background-color: var(--vesper);
+	color: var(--lumo);
+	line-height: var(--line-height-body);
+	text-shadow: var(--text-glow);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--aether);
+	line-height: var(--line-height-head);
+}
+
+/* Target any anchor tags that include 'list-link' in their class somewhere */
+[class*='list-link'] {
+	text-decoration: none;
+}
