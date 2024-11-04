@@ -1,0 +1,93 @@
+:root {
+	--font-body: 'Jura', sans-serif;
+	--font-head: 'Orbitron', sans-serif;
+
+	--line-height-body: 1.75;
+	--line-height-head: 1.35;
+
+	--vesper: hsla(259, 48%, 20%, 1);
+	--vesper90: hsla(259, 48%, 20%, 0.9);
+	--vesper60: hsla(259, 48%, 20%, 0.6);
+	--vesper30: hsla(259, 48%, 20%, 0.3);
+	--vesperb10: hsla(259, 48%, 23%, 0.7);
+
+	--solar: hsla(29, 100%, 69%, 1);
+	--solar90: hsla(29, 100%, 69%, 0.9);
+	--solar60: hsla(29, 100%, 69%, 0.6);
+	--solar30: hsla(29, 100%, 69%, 0.3);
+
+	--aether: hsla(176, 69%, 61%, 1);
+	--aether90: hsla(176, 69%, 61%, 0.9);
+	--aether60: hsla(176, 69%, 61%, 0.6);
+	--aether30: hsla(176, 69%, 61%, 0.3);
+
+	--lumo: hsla(180, 44%, 84%, 1);
+	--lumo90: hsla(180, 44%, 84%, 0.9);
+	--lumo60: hsla(180, 44%, 84%, 0.6);
+	--lumo30: hsla(180, 44%, 84%, 0.3);
+	--lumo20: hsla(180, 44%, 84%, 0.2);
+	--lumo10: hsla(180, 44%, 84%, 0.1);
+	--lumo05: hsla(180, 44%, 84%, 0.05);
+
+	--exhilarate: hsla(346, 98%, 67%, 1);
+	--exhilarate90: hsla(346, 98%, 67%, 0.9);
+	--exhilarate60: hsla(346, 98%, 67%, 0.6);
+	--exhilarate30: hsla(346, 98%, 67%, 0.3);
+
+	--kinetic: hsla(3, 98%, 67%, 1);
+	--kinetic90: hsla(3, 98%, 67%, 0.9);
+	--kinetic60: hsla(3, 98%, 67%, 0.6);
+	--kinetic30: hsla(3, 98%, 67%, 0.3);
+	--kinetic30: hsla(3, 98%, 67%, 0.1);
+
+	--exhilarate-op: hsla(346, 98%, 67%, 1);
+	--exhilarate-op: hsla(346, 98%, 67%, var(--opacity, 1));
+
+	--s1: 0.25rem;
+	--s2: 0.5rem;
+	--s3: 0.75rem;
+	--s4: 1rem;
+	--s5: 1.5rem;
+	--s6: 2rem;
+	--s7: 2.5rem;
+	--s8: 3rem;
+
+	--nav-ht-mobile: 4rem;
+
+	--line-color: hsla(0, 100%, 0%, 0.15);
+	--scanlines: repeating-linear-gradient(
+		0deg,
+		var(--line-color),
+		var(--line-color) 1px,
+		transparent 1px,
+		transparent 2px
+	);
+
+	--light-bleed: linear-gradient(
+		to bottom,
+		var(--kinetic30) 0%,
+		var(--vesper60) 30%,
+		var(--vesper60) 70%,
+		var(--kinetic30) 100%
+	);
+
+	--glow-color: ;
+	--x: 0px;
+	--y: 0px;
+	--blur: 3px;
+	--text-glow: var(--glow-color, inherit) var(--x, 0) var(--y, 0)
+		var(--blur, 3px);
+}
+
+body {
+	font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--font-head);
+}
